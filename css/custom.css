@@ -1,0 +1,264 @@
+/* Main items */
+@media (min-width: 960px) {
+  .container,
+  .container-fluid {
+    width: 1100px;
+  }
+}
+
+@font-face {
+  font-family: courier; /* Имя шрифта */
+  src: url(fonts/сourier.woff); /* Путь к файлу со шрифтом */
+}
+
+h1 {
+  font-size: 35px;
+  font-family: courier;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-family: courier;
+}
+
+h3 {
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: courier;
+}
+
+h4 {
+  color: #212934;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: courier;
+}
+
+p {
+  color: rgba(33,41,52,.6);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+
+/* NAVBAR START */
+
+.navbar {
+  min-height: 60px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+
+.navbar-brand img {
+  height: 34px;
+  width: auto;
+}
+
+.navbar-toggle {
+  margin-top: 12px;
+}
+
+.navbar-default {
+  background-image: linear-gradient(to bottom right, #FFF0A3 0%, #EF5858 100%);
+  background-color: #EF5858;
+  border-color: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #333;
+  font-size: 17px;
+  padding-top: 20px;
+  font-family: courier;
+  text-shadow: 0 1px 2px rgba(255,255,255,.5);
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active {
+  color: rgba(255,255,255,.9);
+  text-shadow: none;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #000;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(255,255,255,.5);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  margin-top: 6px;
+  border-color: rgba(255,255,255,.5);
+}
+
+/*  ABOUT */
+
+.about {
+  background-color: #f1f1f1;
+}
+
+.about h1 {
+  font-family: courier;
+  color: #f1665f;
+}
+
+@media (min-width: 960px){
+  .about h1 {
+    margin-top: 60px;
+    font-size: 34px;
+  }
+}
+@media (max-width: 960px){
+  .about h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px){
+  .about h1 {
+    font-size: 22px;
+  }
+}
+
+
+.about p {
+  color: rgba(33,41,52,.6);
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 20px 0;
+}
+
+@media (min-width: 960px){
+  .about p {
+    font-size: 18px;
+    margin: 12px 0;
+  }
+}
+@media (max-width: 960px){
+  .about p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 768px){
+  .about p {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+}
+
+.about img {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Skills section */
+.skills {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 960px){
+  .skills img {
+    height: 100px;
+    width: auto;
+  }
+}
+
+/* Works section */
+.works {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  background-color: #f1f1f1;
+}
+
+.project {
+  margin-top: 30px;
+}
+
+.preview-img img {
+  width: 340px;
+  height: 360px;
+}
+
+/* Brief section */
+.brief-section {
+  padding: 40px 0 60px 0;
+  height: 180px;
+  background-color: rgb(255, 162, 130);
+}
+.brief-section p {
+  font-size: 22px;
+  color: #000;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.brief-section button {
+  margin-top: 15px;
+  height: 40px;
+  color: #9a533e;
+  font-size: 16px;
+  background-color: rgb(255, 162, 130);
+  border: 2px solid #9a533e;
+}
+.brief-section button:hover {
+  color: #333;
+  border: 2px solid #333;
+}
+.brief-section button:focus {
+  outline-color: #fff;
+}
+.brief-section button:active {
+  color: #9a533e;
+  border: 2px solid #9a533e;
+}
+
+/* Contact section */
+.contact-section {
+  padding: 20px 0;
+  height: 120px;
+  background-color: rgb(23, 23, 23);
+}
+.email a {
+  color: #666;
+  font-size: 28px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.email a:hover {
+  color: rgb(255, 162, 130);
+}
+.social a {
+  font-size: 30px;
+  color: #666;
+  margin: 0 10px;
+}
+.social a:hover {
+  color: rgb(255, 162, 130);
+}
+
+/* Footer */
+.footer {
+  height: 50px;
+  padding-top: 15px;
+  background-color: #000;
+}
+.footer p {
+  color: #333;
+}
+.fa-heart {
+  color: #9a533e;
+}
+
